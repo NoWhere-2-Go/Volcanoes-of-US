@@ -33,7 +33,6 @@ fg = folium.FeatureGroup(name="My map")
 # create a marker in each coordinate
 for lt, ln, names, loc, stat, el in zip(lat, lon, volNames, location, status, elevations):
     tempString = "Volcano Name: {} \nLongitude: {} \nLatitude: {} \nLocation: {} \nStatus: {}" .format(names, ln, lt, loc, stat, el)
-    #pp = folium.Html(tempString)
     popup = folium.Popup(tempString, max_width=180)
     fg.add_child(folium.Marker(location=[lt, ln], popup = popup, icon=folium.Icon(color=determine_color(el))))
 
