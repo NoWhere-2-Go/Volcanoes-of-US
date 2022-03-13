@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_44ba5ee15f0941eb98f0a94ca23ddcbc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_44ba5ee15f0941eb98f0a94ca23ddcbc" ></div>
+        
+</body>
+<script>    
+    
+            var map_44ba5ee15f0941eb98f0a94ca23ddcbc = L.map(
+                "map_44ba5ee15f0941eb98f0a94ca23ddcbc",
+                {
+                    center: [38.58, -99.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d57061c584f4fd8b35bdfc0af34be6a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_44ba5ee15f0941eb98f0a94ca23ddcbc);
+        
+    
+            var feature_group_29c00095da294fe18ae8abeafb542082 = L.featureGroup(
+                {}
+            ).addTo(map_44ba5ee15f0941eb98f0a94ca23ddcbc);
+        
+    
+            var marker_acfbe9c2dc6b421987543c04e4fd8fef = L.marker(
+                [48.7767982, -121.810997],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_aa4521a98b4849999352d4043613eb14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_acfbe9c2dc6b421987543c04e4fd8fef.setIcon(icon_aa4521a98b4849999352d4043613eb14);
+        
+    
+        var popup_ccf0222e276c4ae59aca877de4cddef4 = L.popup({"maxWidth": 180});
+
+        
+            var html_6db571b38e564d83a825666116b8ef30 = $(`<div id="html_6db571b38e564d83a825666116b8ef30" style="width: 100.0%; height: 100.0%;">Volcano Name: Baker  Longitude: -121.810997  Latitude: 48.7767982  Location: US-Washington  Status: Historical</div>`)[0];
+            popup_ccf0222e276c4ae59aca877de4cddef4.setContent(html_6db571b38e564d83a825666116b8ef30);
+        
+
+        marker_acfbe9c2dc6b421987543c04e4fd8fef.bindPopup(popup_ccf0222e276c4ae59aca877de4cddef4)
+        ;
+
+        
+    
+    
+            var marker_cee51351d75f492c9b3774c962d9554f = L.marker(
+                [48.1118011, -121.1110001],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_8b414737225a4deead0d47c4669a9b63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cee51351d75f492c9b3774c962d9554f.setIcon(icon_8b414737225a4deead0d47c4669a9b63);
+        
+    
+        var popup_c2d728e052024304972e5b66398053e6 = L.popup({"maxWidth": 180});
+
+        
+            var html_aafcbc8907224b54bfb6cae39e4eaa5f = $(`<div id="html_aafcbc8907224b54bfb6cae39e4eaa5f" style="width: 100.0%; height: 100.0%;">Volcano Name: Glacier Peak  Longitude: -121.1110001  Latitude: 48.1118011  Location: US-Washington  Status: Tephrochronology</div>`)[0];
+            popup_c2d728e052024304972e5b66398053e6.setContent(html_aafcbc8907224b54bfb6cae39e4eaa5f);
+        
+
+        marker_cee51351d75f492c9b3774c962d9554f.bindPopup(popup_c2d728e052024304972e5b66398053e6)
+        ;
+
+        
+    
+    
+            var marker_420618ef4cef4d8c8d98e09a82510c4e = L.marker(
+                [46.8698006, -121.7509995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_d9e6f8a143cd45ccadf6faa4e88b4e4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_420618ef4cef4d8c8d98e09a82510c4e.setIcon(icon_d9e6f8a143cd45ccadf6faa4e88b4e4c);
+        
+    
+        var popup_5b386231ab104ed78dbec6a1c9f1af5d = L.popup({"maxWidth": 180});
+
+        
+            var html_d3b4da28a2694ca983e0299a17a96917 = $(`<div id="html_d3b4da28a2694ca983e0299a17a96917" style="width: 100.0%; height: 100.0%;">Volcano Name: Rainier  Longitude: -121.7509995  Latitude: 46.8698006  Location: US-Washington  Status: Dendrochronology</div>`)[0];
+            popup_5b386231ab104ed78dbec6a1c9f1af5d.setContent(html_d3b4da28a2694ca983e0299a17a96917);
+        
+
+        marker_420618ef4cef4d8c8d98e09a82510c4e.bindPopup(popup_5b386231ab104ed78dbec6a1c9f1af5d)
+        ;
+
+        
+    
+    
+            var marker_13ad4896a6304fa3bba1f75a54f89af2 = L.marker(
+                [46.1997986, -122.1809998],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_743788ee86a24918ad7649bfdd2cf256 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_13ad4896a6304fa3bba1f75a54f89af2.setIcon(icon_743788ee86a24918ad7649bfdd2cf256);
+        
+    
+        var popup_78f8cb013bf14bcda953841046236802 = L.popup({"maxWidth": 180});
+
+        
+            var html_dd412e040ff1487c8191792b975981be = $(`<div id="html_dd412e040ff1487c8191792b975981be" style="width: 100.0%; height: 100.0%;">Volcano Name: St. Helens  Longitude: -122.1809998  Latitude: 46.1997986  Location: US-Washington  Status: Historical</div>`)[0];
+            popup_78f8cb013bf14bcda953841046236802.setContent(html_dd412e040ff1487c8191792b975981be);
+        
+
+        marker_13ad4896a6304fa3bba1f75a54f89af2.bindPopup(popup_78f8cb013bf14bcda953841046236802)
+        ;
+
+        
+    
+    
+            var marker_262bc50f5a764221969adfa827516319 = L.marker(
+                [46.2057991, -121.4909973],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_5d46591966e44cbea8726a1708eefea9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_262bc50f5a764221969adfa827516319.setIcon(icon_5d46591966e44cbea8726a1708eefea9);
+        
+    
+        var popup_a7a283e68e5a4179b08402004a34be4a = L.popup({"maxWidth": 180});
+
+        
+            var html_fcea0a349ddc400cb43b5a2a6e5ee06b = $(`<div id="html_fcea0a349ddc400cb43b5a2a6e5ee06b" style="width: 100.0%; height: 100.0%;">Volcano Name: Adams  Longitude: -121.4909973  Latitude: 46.2057991  Location: US-Washington  Status: Tephrochronology</div>`)[0];
+            popup_a7a283e68e5a4179b08402004a34be4a.setContent(html_fcea0a349ddc400cb43b5a2a6e5ee06b);
+        
+
+        marker_262bc50f5a764221969adfa827516319.bindPopup(popup_a7a283e68e5a4179b08402004a34be4a)
+        ;
+
+        
+    
+    
+            var marker_e00e512635c84b1180b0fb98b5b11fcc = L.marker(
+                [45.8797989, -122.0810013],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_1f64be796cbb4b5f8830283e32152b2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e00e512635c84b1180b0fb98b5b11fcc.setIcon(icon_1f64be796cbb4b5f8830283e32152b2e);
+        
+    
+        var popup_0bf44610427b43de8a4435c052d04845 = L.popup({"maxWidth": 180});
+
+        
+            var html_d70287ce0d0b44429bc6cd4124be9550 = $(`<div id="html_d70287ce0d0b44429bc6cd4124be9550" style="width: 100.0%; height: 100.0%;">Volcano Name: West Crater  Longitude: -122.0810013  Latitude: 45.8797989  Location: US-Washington  Status: Radiocarbon</div>`)[0];
+            popup_0bf44610427b43de8a4435c052d04845.setContent(html_d70287ce0d0b44429bc6cd4124be9550);
+        
+
+        marker_e00e512635c84b1180b0fb98b5b11fcc.bindPopup(popup_0bf44610427b43de8a4435c052d04845)
+        ;
+
+        
+    
+    
+            var marker_4f2b470d63ce4dc5b65440711eb4ddc3 = L.marker(
+                [45.9297981, -121.8209991],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_ac8fbf1efb784136adc1aabd95751cc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4f2b470d63ce4dc5b65440711eb4ddc3.setIcon(icon_ac8fbf1efb784136adc1aabd95751cc1);
+        
+    
+        var popup_a5f57856d43c42a3b259a4bc000d112a = L.popup({"maxWidth": 180});
+
+        
+            var html_f62deceafa8f482dabfc2c01bc1b962a = $(`<div id="html_f62deceafa8f482dabfc2c01bc1b962a" style="width: 100.0%; height: 100.0%;">Volcano Name: Indian Heaven  Longitude: -121.8209991  Latitude: 45.9297981  Location: US-Washington  Status: Radiocarbon</div>`)[0];
+            popup_a5f57856d43c42a3b259a4bc000d112a.setContent(html_f62deceafa8f482dabfc2c01bc1b962a);
+        
+
+        marker_4f2b470d63ce4dc5b65440711eb4ddc3.bindPopup(popup_a5f57856d43c42a3b259a4bc000d112a)
+        ;
+
+        
+    
+    
+            var marker_f7fe6cff05ca4ea7a188590c21488663 = L.marker(
+                [45.3737984, -121.6910019],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_27d0db433c2142f6b1a3904623c92458 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7fe6cff05ca4ea7a188590c21488663.setIcon(icon_27d0db433c2142f6b1a3904623c92458);
+        
+    
+        var popup_84a9c9cb1eb44e778aabe63949e55b37 = L.popup({"maxWidth": 180});
+
+        
+            var html_f94deca4cba04599a1ed040c5622626f = $(`<div id="html_f94deca4cba04599a1ed040c5622626f" style="width: 100.0%; height: 100.0%;">Volcano Name: Hood  Longitude: -121.6910019  Latitude: 45.3737984  Location: US-Oregon  Status: Historical</div>`)[0];
+            popup_84a9c9cb1eb44e778aabe63949e55b37.setContent(html_f94deca4cba04599a1ed040c5622626f);
+        
+
+        marker_f7fe6cff05ca4ea7a188590c21488663.bindPopup(popup_84a9c9cb1eb44e778aabe63949e55b37)
+        ;
+
+        
+    
+    
+            var marker_2fd5974ba2f04cce9a49e8049b5c2cc0 = L.marker(
+                [44.6917992, -121.8010025],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_7d2ad6eb5c6e48499259bfea56f76ae4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2fd5974ba2f04cce9a49e8049b5c2cc0.setIcon(icon_7d2ad6eb5c6e48499259bfea56f76ae4);
+        
+    
+        var popup_463abb50f08d4ddaa5acb20ea6ba1d90 = L.popup({"maxWidth": 180});
+
+        
+            var html_74e548444c974241a283024ac6d45f7f = $(`<div id="html_74e548444c974241a283024ac6d45f7f" style="width: 100.0%; height: 100.0%;">Volcano Name: Jefferson  Longitude: -121.8010025  Latitude: 44.6917992  Location: US-Oregon  Status: Varve Count</div>`)[0];
+            popup_463abb50f08d4ddaa5acb20ea6ba1d90.setContent(html_74e548444c974241a283024ac6d45f7f);
+        
+
+        marker_2fd5974ba2f04cce9a49e8049b5c2cc0.bindPopup(popup_463abb50f08d4ddaa5acb20ea6ba1d90)
+        ;
+
+        
+    
+    
+            var marker_d0c8811bf1ea476487beddee334d0ce5 = L.marker(
+                [44.4197998, -121.7710037],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_bd3b9b86326e4811ba4a95d2cf853bad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0c8811bf1ea476487beddee334d0ce5.setIcon(icon_bd3b9b86326e4811ba4a95d2cf853bad);
+        
+    
+        var popup_8403342ba5a0436bac56d7e0116d3a5f = L.popup({"maxWidth": 180});
+
+        
+            var html_6a354022aa184c479953c8caba15a164 = $(`<div id="html_6a354022aa184c479953c8caba15a164" style="width: 100.0%; height: 100.0%;">Volcano Name: Blue Lake Crater  Longitude: -121.7710037  Latitude: 44.4197998  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_8403342ba5a0436bac56d7e0116d3a5f.setContent(html_6a354022aa184c479953c8caba15a164);
+        
+
+        marker_d0c8811bf1ea476487beddee334d0ce5.bindPopup(popup_8403342ba5a0436bac56d7e0116d3a5f)
+        ;
+
+        
+    
+    
+            var marker_fd587bf409a741f5bb103a211fde05bd = L.marker(
+                [44.3797989, -121.9309998],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_e8c00f9299274d6bac50888dd4e2c299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd587bf409a741f5bb103a211fde05bd.setIcon(icon_e8c00f9299274d6bac50888dd4e2c299);
+        
+    
+        var popup_737ea0b553194f98b0be11a9d1d3106c = L.popup({"maxWidth": 180});
+
+        
+            var html_61e258f7f69d48fd91729b6182adb65d = $(`<div id="html_61e258f7f69d48fd91729b6182adb65d" style="width: 100.0%; height: 100.0%;">Volcano Name: Sand Mountain Field  Longitude: -121.9309998  Latitude: 44.3797989  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_737ea0b553194f98b0be11a9d1d3106c.setContent(html_61e258f7f69d48fd91729b6182adb65d);
+        
+
+        marker_fd587bf409a741f5bb103a211fde05bd.bindPopup(popup_737ea0b553194f98b0be11a9d1d3106c)
+        ;
+
+        
+    
+    
+            var marker_237f12067e294e45a88bd2574a5fcac6 = L.marker(
+                [44.3317986, -121.8310013],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_9052d148d940410c8750602525d80385 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_237f12067e294e45a88bd2574a5fcac6.setIcon(icon_9052d148d940410c8750602525d80385);
+        
+    
+        var popup_2f90dadad6114e2b89c14ba562505f33 = L.popup({"maxWidth": 180});
+
+        
+            var html_8f9924190e2c40708e3db5acbccc474b = $(`<div id="html_8f9924190e2c40708e3db5acbccc474b" style="width: 100.0%; height: 100.0%;">Volcano Name: Washington  Longitude: -121.8310013  Latitude: 44.3317986  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_2f90dadad6114e2b89c14ba562505f33.setContent(html_8f9924190e2c40708e3db5acbccc474b);
+        
+
+        marker_237f12067e294e45a88bd2574a5fcac6.bindPopup(popup_2f90dadad6114e2b89c14ba562505f33)
+        ;
+
+        
+    
+    
+            var marker_b2392c9282af4eec83dba896f252d863 = L.marker(
+                [44.2848015, -121.8410034],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_d64a31fd20cd47fe893136306a60db12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b2392c9282af4eec83dba896f252d863.setIcon(icon_d64a31fd20cd47fe893136306a60db12);
+        
+    
+        var popup_f72902c2cfbf486ca6c4032003cb9c84 = L.popup({"maxWidth": 180});
+
+        
+            var html_b9c0a343de1f4072bd84d2160f4d6f4b = $(`<div id="html_b9c0a343de1f4072bd84d2160f4d6f4b" style="width: 100.0%; height: 100.0%;">Volcano Name: Belknap  Longitude: -121.8410034  Latitude: 44.2848015  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_f72902c2cfbf486ca6c4032003cb9c84.setContent(html_b9c0a343de1f4072bd84d2160f4d6f4b);
+        
+
+        marker_b2392c9282af4eec83dba896f252d863.bindPopup(popup_f72902c2cfbf486ca6c4032003cb9c84)
+        ;
+
+        
+    
+    
+            var marker_60af8ce1ab864db38cb65918bb0388c1 = L.marker(
+                [44.1697998, -121.7710037],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_f4662b1a27b0457e887d5c692ca7f228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60af8ce1ab864db38cb65918bb0388c1.setIcon(icon_f4662b1a27b0457e887d5c692ca7f228);
+        
+    
+        var popup_ddd0683185cf4d0a98316d653bc4f62c = L.popup({"maxWidth": 180});
+
+        
+            var html_09c09aab1dfb4048a022b196999c78bd = $(`<div id="html_09c09aab1dfb4048a022b196999c78bd" style="width: 100.0%; height: 100.0%;">Volcano Name: North Sister Field  Longitude: -121.7710037  Latitude: 44.1697998  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_ddd0683185cf4d0a98316d653bc4f62c.setContent(html_09c09aab1dfb4048a022b196999c78bd);
+        
+
+        marker_60af8ce1ab864db38cb65918bb0388c1.bindPopup(popup_ddd0683185cf4d0a98316d653bc4f62c)
+        ;
+
+        
+    
+    
+            var marker_91222564b9bf4aa6920eecb74c91e134 = L.marker(
+                [44.0998001, -121.7710037],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_025402989d024803835fbd4924a915f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91222564b9bf4aa6920eecb74c91e134.setIcon(icon_025402989d024803835fbd4924a915f4);
+        
+    
+        var popup_90a7687f9af2417186c9177803add7ea = L.popup({"maxWidth": 180});
+
+        
+            var html_790ad2ae531a4d9aaaac722c67cc5160 = $(`<div id="html_790ad2ae531a4d9aaaac722c67cc5160" style="width: 100.0%; height: 100.0%;">Volcano Name: South Sister  Longitude: -121.7710037  Latitude: 44.0998001  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_90a7687f9af2417186c9177803add7ea.setContent(html_790ad2ae531a4d9aaaac722c67cc5160);
+        
+
+        marker_91222564b9bf4aa6920eecb74c91e134.bindPopup(popup_90a7687f9af2417186c9177803add7ea)
+        ;
+
+        
+    
+    
+            var marker_6f365f9400704c118ceed8196cce77a8 = L.marker(
+                [43.9788017, -121.6809998],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_1bafa704b04744759fc08c35391aa192 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6f365f9400704c118ceed8196cce77a8.setIcon(icon_1bafa704b04744759fc08c35391aa192);
+        
+    
+        var popup_6e3f8a43e7d946a48265e0caed7f08f3 = L.popup({"maxWidth": 180});
+
+        
+            var html_304f2aa6e5ef41a8bc875619b80b924c = $(`<div id="html_304f2aa6e5ef41a8bc875619b80b924c" style="width: 100.0%; height: 100.0%;">Volcano Name: Bachelor  Longitude: -121.6809998  Latitude: 43.9788017  Location: US-Oregon  Status: Tephrochronology</div>`)[0];
+            popup_6e3f8a43e7d946a48265e0caed7f08f3.setContent(html_304f2aa6e5ef41a8bc875619b80b924c);
+        
+
+        marker_6f365f9400704c118ceed8196cce77a8.bindPopup(popup_6e3f8a43e7d946a48265e0caed7f08f3)
+        ;
+
+        
+    
+    
+            var marker_7bdb592216504abf94d91a238733b3ba = L.marker(
+                [43.7218018, -121.2210007],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_eed0c38946134540879b0808b7b43456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7bdb592216504abf94d91a238733b3ba.setIcon(icon_eed0c38946134540879b0808b7b43456);
+        
+    
+        var popup_1789c166868448fdb892743691c89ee1 = L.popup({"maxWidth": 180});
+
+        
+            var html_3ecedb6ac95e43e1830b9c994612e5d5 = $(`<div id="html_3ecedb6ac95e43e1830b9c994612e5d5" style="width: 100.0%; height: 100.0%;">Volcano Name: Newberry Volcano  Longitude: -121.2210007  Latitude: 43.7218018  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_1789c166868448fdb892743691c89ee1.setContent(html_3ecedb6ac95e43e1830b9c994612e5d5);
+        
+
+        marker_7bdb592216504abf94d91a238733b3ba.bindPopup(popup_1789c166868448fdb892743691c89ee1)
+        ;
+
+        
+    
+    
+            var marker_784d2aa8d58b4515a13a73b6ef451ce0 = L.marker(
+                [43.5698013, -121.8209991],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_82f792d96efe44bd9e55ff10f74c4d6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_784d2aa8d58b4515a13a73b6ef451ce0.setIcon(icon_82f792d96efe44bd9e55ff10f74c4d6e);
+        
+    
+        var popup_d891fcc44e8a44b091d7658da0bb7850 = L.popup({"maxWidth": 180});
+
+        
+            var html_1a408c015db24712bcc8a4ac39055341 = $(`<div id="html_1a408c015db24712bcc8a4ac39055341" style="width: 100.0%; height: 100.0%;">Volcano Name: Davis Lake  Longitude: -121.8209991  Latitude: 43.5698013  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_d891fcc44e8a44b091d7658da0bb7850.setContent(html_1a408c015db24712bcc8a4ac39055341);
+        
+
+        marker_784d2aa8d58b4515a13a73b6ef451ce0.bindPopup(popup_d891fcc44e8a44b091d7658da0bb7850)
+        ;
+
+        
+    
+    
+            var marker_ee7ed2caa27c44d18851e75ef591801f = L.marker(
+                [43.5119019, -120.8610001],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_0103201208974489ba98622308a07c4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee7ed2caa27c44d18851e75ef591801f.setIcon(icon_0103201208974489ba98622308a07c4b);
+        
+    
+        var popup_a92981ecaa494da5a964955ef436428b = L.popup({"maxWidth": 180});
+
+        
+            var html_596d24f0096a4070acb073beb04cb935 = $(`<div id="html_596d24f0096a4070acb073beb04cb935" style="width: 100.0%; height: 100.0%;">Volcano Name: Devils Garden  Longitude: -120.8610001  Latitude: 43.5119019  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_a92981ecaa494da5a964955ef436428b.setContent(html_596d24f0096a4070acb073beb04cb935);
+        
+
+        marker_ee7ed2caa27c44d18851e75ef591801f.bindPopup(popup_a92981ecaa494da5a964955ef436428b)
+        ;
+
+        
+    
+    
+            var marker_51d75971bd3945e7ad5b1db4bee0ab95 = L.marker(
+                [43.240799, -122.1009979],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_fc705e2c29df461cb3b6d5d1da440bc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51d75971bd3945e7ad5b1db4bee0ab95.setIcon(icon_fc705e2c29df461cb3b6d5d1da440bc7);
+        
+    
+        var popup_147a391174e840188f7d4200d1e8f680 = L.popup({"maxWidth": 180});
+
+        
+            var html_5b6c3e12d9cf4b249a83288d2955994a = $(`<div id="html_5b6c3e12d9cf4b249a83288d2955994a" style="width: 100.0%; height: 100.0%;">Volcano Name: Cinnamon Butte  Longitude: -122.1009979  Latitude: 43.240799  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_147a391174e840188f7d4200d1e8f680.setContent(html_5b6c3e12d9cf4b249a83288d2955994a);
+        
+
+        marker_51d75971bd3945e7ad5b1db4bee0ab95.bindPopup(popup_147a391174e840188f7d4200d1e8f680)
+        ;
+
+        
+    
+    
+            var marker_51fdd399cc2f48439e45f710a3ca5435 = L.marker(
+                [43.4719009, -120.7509995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_e507d29e072c4648a754a3cf15093b64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51fdd399cc2f48439e45f710a3ca5435.setIcon(icon_e507d29e072c4648a754a3cf15093b64);
+        
+    
+        var popup_6f3131e0e11e4d58bc826386880af975 = L.popup({"maxWidth": 180});
+
+        
+            var html_3882b47511e34531acedb7cf75e48fdb = $(`<div id="html_3882b47511e34531acedb7cf75e48fdb" style="width: 100.0%; height: 100.0%;">Volcano Name: Squaw Ridge Lava Field  Longitude: -120.7509995  Latitude: 43.4719009  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_6f3131e0e11e4d58bc826386880af975.setContent(html_3882b47511e34531acedb7cf75e48fdb);
+        
+
+        marker_51fdd399cc2f48439e45f710a3ca5435.bindPopup(popup_6f3131e0e11e4d58bc826386880af975)
+        ;
+
+        
+    
+    
+            var marker_cf1fd3004c724944b85dfe895c81157c = L.marker(
+                [43.3609009, -120.6610031],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_a17dad0e72e24129a902281122b29891 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cf1fd3004c724944b85dfe895c81157c.setIcon(icon_a17dad0e72e24129a902281122b29891);
+        
+    
+        var popup_3176bc0b972f4beab60f8c75ccc7f925 = L.popup({"maxWidth": 180});
+
+        
+            var html_0ab200294d2b49bda6c1c414efb9eaaa = $(`<div id="html_0ab200294d2b49bda6c1c414efb9eaaa" style="width: 100.0%; height: 100.0%;">Volcano Name: Four Craters Lava Field  Longitude: -120.6610031  Latitude: 43.3609009  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_3176bc0b972f4beab60f8c75ccc7f925.setContent(html_0ab200294d2b49bda6c1c414efb9eaaa);
+        
+
+        marker_cf1fd3004c724944b85dfe895c81157c.bindPopup(popup_3176bc0b972f4beab60f8c75ccc7f925)
+        ;
+
+        
+    
+    
+            var marker_4cb3b127e7b2429e867184a892adf08d = L.marker(
+                [42.9299011, -122.1210022],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_bdc09d76c7744b15a5f481ee85f0408e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4cb3b127e7b2429e867184a892adf08d.setIcon(icon_bdc09d76c7744b15a5f481ee85f0408e);
+        
+    
+        var popup_64984704785e4efab578d89c5841761f = L.popup({"maxWidth": 180});
+
+        
+            var html_1bd7dee7561c435186012db2cd087ec1 = $(`<div id="html_1bd7dee7561c435186012db2cd087ec1" style="width: 100.0%; height: 100.0%;">Volcano Name: Crater Lake  Longitude: -122.1210022  Latitude: 42.9299011  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_64984704785e4efab578d89c5841761f.setContent(html_1bd7dee7561c435186012db2cd087ec1);
+        
+
+        marker_4cb3b127e7b2429e867184a892adf08d.bindPopup(popup_64984704785e4efab578d89c5841761f)
+        ;
+
+        
+    
+    
+            var marker_d2fceedaa8674bf090209769027ab14c = L.marker(
+                [44.4299011, -110.6709976],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_38aa79d402a143969de8b0f23cd4d835 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d2fceedaa8674bf090209769027ab14c.setIcon(icon_38aa79d402a143969de8b0f23cd4d835);
+        
+    
+        var popup_4e2883a2f2ef40c0b39666e98d1a8b01 = L.popup({"maxWidth": 180});
+
+        
+            var html_23fcd6f16d9b4ac2994a699e5db941c1 = $(`<div id="html_23fcd6f16d9b4ac2994a699e5db941c1" style="width: 100.0%; height: 100.0%;">Volcano Name: Yellowstone  Longitude: -110.6709976  Latitude: 44.4299011  Location: US-Wyoming  Status: Tephrochronology</div>`)[0];
+            popup_4e2883a2f2ef40c0b39666e98d1a8b01.setContent(html_23fcd6f16d9b4ac2994a699e5db941c1);
+        
+
+        marker_d2fceedaa8674bf090209769027ab14c.bindPopup(popup_4e2883a2f2ef40c0b39666e98d1a8b01)
+        ;
+
+        
+    
+    
+            var marker_50d952634fc34261ae61633b3812ee97 = L.marker(
+                [43.0998993, -118.7509995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_07f6d6614e2842b3b8cef35827c1d1d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50d952634fc34261ae61633b3812ee97.setIcon(icon_07f6d6614e2842b3b8cef35827c1d1d4);
+        
+    
+        var popup_4d91892d307a4cbc830a5a1ac7f17e19 = L.popup({"maxWidth": 180});
+
+        
+            var html_5f989fe78ce641e3ade95d64400e5278 = $(`<div id="html_5f989fe78ce641e3ade95d64400e5278" style="width: 100.0%; height: 100.0%;">Volcano Name: Diamond Craters  Longitude: -118.7509995  Latitude: 43.0998993  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_4d91892d307a4cbc830a5a1ac7f17e19.setContent(html_5f989fe78ce641e3ade95d64400e5278);
+        
+
+        marker_50d952634fc34261ae61633b3812ee97.bindPopup(popup_4d91892d307a4cbc830a5a1ac7f17e19)
+        ;
+
+        
+    
+    
+            var marker_4adb7ecfc47c4171b5331197c334267e = L.marker(
+                [43.1498985, -117.4710007],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_308ebdba50e84069ba7acf8783f58cd0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4adb7ecfc47c4171b5331197c334267e.setIcon(icon_308ebdba50e84069ba7acf8783f58cd0);
+        
+    
+        var popup_71d6d029d0b347ffb6daa91c31b370f8 = L.popup({"maxWidth": 180});
+
+        
+            var html_3039c8e06c0b4b5cbd8cb7b8d0417f72 = $(`<div id="html_3039c8e06c0b4b5cbd8cb7b8d0417f72" style="width: 100.0%; height: 100.0%;">Volcano Name: Jordan Craters  Longitude: -117.4710007  Latitude: 43.1498985  Location: US-Oregon  Status: Radiocarbon</div>`)[0];
+            popup_71d6d029d0b347ffb6daa91c31b370f8.setContent(html_3039c8e06c0b4b5cbd8cb7b8d0417f72);
+        
+
+        marker_4adb7ecfc47c4171b5331197c334267e.bindPopup(popup_71d6d029d0b347ffb6daa91c31b370f8)
+        ;
+
+        
+    
+    
+            var marker_b3ed5ef90e244a0e8e21ce2e0872b706 = L.marker(
+                [42.9999008, -117.8010025],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_23497832969a42ae9cee69142b2d6861 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3ed5ef90e244a0e8e21ce2e0872b706.setIcon(icon_23497832969a42ae9cee69142b2d6861);
+        
+    
+        var popup_0410101e02604b29ada9a5bb19907f37 = L.popup({"maxWidth": 180});
+
+        
+            var html_ddb6e0854f7e4e3092d88c2dd14910fe = $(`<div id="html_ddb6e0854f7e4e3092d88c2dd14910fe" style="width: 100.0%; height: 100.0%;">Volcano Name: Saddle Butte  Longitude: -117.8010025  Latitude: 42.9999008  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_0410101e02604b29ada9a5bb19907f37.setContent(html_ddb6e0854f7e4e3092d88c2dd14910fe);
+        
+
+        marker_b3ed5ef90e244a0e8e21ce2e0872b706.bindPopup(popup_0410101e02604b29ada9a5bb19907f37)
+        ;
+
+        
+    
+    
+            var marker_ab083b6d8c5142eb8406b29a99dc440d = L.marker(
+                [43.419899, -113.5009995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_3163bc090ced44f7ad6260ea42a0088a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ab083b6d8c5142eb8406b29a99dc440d.setIcon(icon_3163bc090ced44f7ad6260ea42a0088a);
+        
+    
+        var popup_3d7cd698b6f043ffa54e5a7cd1e4d1bb = L.popup({"maxWidth": 180});
+
+        
+            var html_3514c186393d4b70b44e89a27b76106e = $(`<div id="html_3514c186393d4b70b44e89a27b76106e" style="width: 100.0%; height: 100.0%;">Volcano Name: Craters of the Moon  Longitude: -113.5009995  Latitude: 43.419899  Location: US-Idaho  Status: Radiocarbon</div>`)[0];
+            popup_3d7cd698b6f043ffa54e5a7cd1e4d1bb.setContent(html_3514c186393d4b70b44e89a27b76106e);
+        
+
+        marker_ab083b6d8c5142eb8406b29a99dc440d.bindPopup(popup_3d7cd698b6f043ffa54e5a7cd1e4d1bb)
+        ;
+
+        
+    
+    
+            var marker_54e052ff63d74f6f8a4539a47b6187af = L.marker(
+                [43.4999008, -112.4509964],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_128f9c9d722c46a1853ae61dae091402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_54e052ff63d74f6f8a4539a47b6187af.setIcon(icon_128f9c9d722c46a1853ae61dae091402);
+        
+    
+        var popup_75165f336685409697cd0db4bb318cfc = L.popup({"maxWidth": 180});
+
+        
+            var html_f612d1de32d94137acc4d785a7242a12 = $(`<div id="html_f612d1de32d94137acc4d785a7242a12" style="width: 100.0%; height: 100.0%;">Volcano Name: Hell Half Acre  Longitude: -112.4509964  Latitude: 43.4999008  Location: US-Idaho  Status: Radiocarbon</div>`)[0];
+            popup_75165f336685409697cd0db4bb318cfc.setContent(html_f612d1de32d94137acc4d785a7242a12);
+        
+
+        marker_54e052ff63d74f6f8a4539a47b6187af.bindPopup(popup_75165f336685409697cd0db4bb318cfc)
+        ;
+
+        
+    
+    
+            var marker_7136f31c277e4769a8bee92a7ef58069 = L.marker(
+                [43.1799011, -114.3509979],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_fd1c8772c910409b8c79bae229311d8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7136f31c277e4769a8bee92a7ef58069.setIcon(icon_fd1c8772c910409b8c79bae229311d8f);
+        
+    
+        var popup_8db5a449c0fb4f13b008f94131ac65bd = L.popup({"maxWidth": 180});
+
+        
+            var html_39aeca7c818148b19ade555a9b059640 = $(`<div id="html_39aeca7c818148b19ade555a9b059640" style="width: 100.0%; height: 100.0%;">Volcano Name: Shoshone Lava Field  Longitude: -114.3509979  Latitude: 43.1799011  Location: US-Idaho  Status: Holocene</div>`)[0];
+            popup_8db5a449c0fb4f13b008f94131ac65bd.setContent(html_39aeca7c818148b19ade555a9b059640);
+        
+
+        marker_7136f31c277e4769a8bee92a7ef58069.bindPopup(popup_8db5a449c0fb4f13b008f94131ac65bd)
+        ;
+
+        
+    
+    
+            var marker_442dd309b4b24b4b8e05a15fd7c8d9dc = L.marker(
+                [42.6058998, -117.5810013],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_cdf5dc716db349ee8fee6645d0ca6ac8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_442dd309b4b24b4b8e05a15fd7c8d9dc.setIcon(icon_cdf5dc716db349ee8fee6645d0ca6ac8);
+        
+    
+        var popup_fd3754a4a0934ded8eac8c7f0465d0fd = L.popup({"maxWidth": 180});
+
+        
+            var html_7a6edca79ee145439d642a63c41dc33a = $(`<div id="html_7a6edca79ee145439d642a63c41dc33a" style="width: 100.0%; height: 100.0%;">Volcano Name: Jackies Butte  Longitude: -117.5810013  Latitude: 42.6058998  Location: US-Oregon  Status: Holocene?</div>`)[0];
+            popup_fd3754a4a0934ded8eac8c7f0465d0fd.setContent(html_7a6edca79ee145439d642a63c41dc33a);
+        
+
+        marker_442dd309b4b24b4b8e05a15fd7c8d9dc.bindPopup(popup_fd3754a4a0934ded8eac8c7f0465d0fd)
+        ;
+
+        
+    
+    
+            var marker_98ddfe687209457ea7128b05f076b458 = L.marker(
+                [41.5798988, -121.5709991],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_1bced97db25344c9a5aed999f2566b80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_98ddfe687209457ea7128b05f076b458.setIcon(icon_1bced97db25344c9a5aed999f2566b80);
+        
+    
+        var popup_7e61ec04cf0248219d4abfcf2988d056 = L.popup({"maxWidth": 180});
+
+        
+            var html_6602e371afbd4cb0a5d8651942e8ab54 = $(`<div id="html_6602e371afbd4cb0a5d8651942e8ab54" style="width: 100.0%; height: 100.0%;">Volcano Name: Medicine Lake  Longitude: -121.5709991  Latitude: 41.5798988  Location: US-California  Status: Radiocarbon</div>`)[0];
+            popup_7e61ec04cf0248219d4abfcf2988d056.setContent(html_6602e371afbd4cb0a5d8651942e8ab54);
+        
+
+        marker_98ddfe687209457ea7128b05f076b458.bindPopup(popup_7e61ec04cf0248219d4abfcf2988d056)
+        ;
+
+        
+    
+    
+            var marker_ad526ca8e03f47d5afb73fa79a4444c2 = L.marker(
+                [42.8799019, -113.2210007],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_5de44eac16f24f139f8c086c4166a237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad526ca8e03f47d5afb73fa79a4444c2.setIcon(icon_5de44eac16f24f139f8c086c4166a237);
+        
+    
+        var popup_a1680e669ddb473e9bf80181d95adab2 = L.popup({"maxWidth": 180});
+
+        
+            var html_379a849ee1cc4cb68da329f01a5ec51c = $(`<div id="html_379a849ee1cc4cb68da329f01a5ec51c" style="width: 100.0%; height: 100.0%;">Volcano Name: Wapi Lava Field  Longitude: -113.2210007  Latitude: 42.8799019  Location: US-Idaho  Status: Radiocarbon</div>`)[0];
+            popup_a1680e669ddb473e9bf80181d95adab2.setContent(html_379a849ee1cc4cb68da329f01a5ec51c);
+        
+
+        marker_ad526ca8e03f47d5afb73fa79a4444c2.bindPopup(popup_a1680e669ddb473e9bf80181d95adab2)
+        ;
+
+        
+    
+    
+            var marker_e65e7011d5f645209ae7f410e612aadd = L.marker(
+                [41.419899, -122.2009964],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_b700a2eac0d84077842ee9289756ed18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e65e7011d5f645209ae7f410e612aadd.setIcon(icon_b700a2eac0d84077842ee9289756ed18);
+        
+    
+        var popup_889621d607d14714b30b4896b081fa0b = L.popup({"maxWidth": 180});
+
+        
+            var html_44432efdd8644388867938092098f9b5 = $(`<div id="html_44432efdd8644388867938092098f9b5" style="width: 100.0%; height: 100.0%;">Volcano Name: Shasta  Longitude: -122.2009964  Latitude: 41.419899  Location: US-California  Status: Historical</div>`)[0];
+            popup_889621d607d14714b30b4896b081fa0b.setContent(html_44432efdd8644388867938092098f9b5);
+        
+
+        marker_e65e7011d5f645209ae7f410e612aadd.bindPopup(popup_889621d607d14714b30b4896b081fa0b)
+        ;
+
+        
+    
+    
+            var marker_4d29718de4f540d7ba79bb19248aadc4 = L.marker(
+                [41.1778984, -121.4410019],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_6c02b1047ced458088f192c7f6a9470f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d29718de4f540d7ba79bb19248aadc4.setIcon(icon_6c02b1047ced458088f192c7f6a9470f);
+        
+    
+        var popup_a2df1abe75f34e40a042913bcb08493d = L.popup({"maxWidth": 180});
+
+        
+            var html_116555680eed4d56b8ae33dce3606729 = $(`<div id="html_116555680eed4d56b8ae33dce3606729" style="width: 100.0%; height: 100.0%;">Volcano Name: Brushy Butte  Longitude: -121.4410019  Latitude: 41.1778984  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_a2df1abe75f34e40a042913bcb08493d.setContent(html_116555680eed4d56b8ae33dce3606729);
+        
+
+        marker_4d29718de4f540d7ba79bb19248aadc4.bindPopup(popup_a2df1abe75f34e40a042913bcb08493d)
+        ;
+
+        
+    
+    
+            var marker_9282b871b1bd429693682f6fe3b57b0b = L.marker(
+                [40.9548988, -121.3610001],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_90b2195a89ac45d4bb5e202015b812f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9282b871b1bd429693682f6fe3b57b0b.setIcon(icon_90b2195a89ac45d4bb5e202015b812f9);
+        
+    
+        var popup_2ac206d02ffb461490f8d2a115d8ef23 = L.popup({"maxWidth": 180});
+
+        
+            var html_84731f42b0b748f98b6f29e8852c5d8e = $(`<div id="html_84731f42b0b748f98b6f29e8852c5d8e" style="width: 100.0%; height: 100.0%;">Volcano Name: Big Cave  Longitude: -121.3610001  Latitude: 40.9548988  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_2ac206d02ffb461490f8d2a115d8ef23.setContent(html_84731f42b0b748f98b6f29e8852c5d8e);
+        
+
+        marker_9282b871b1bd429693682f6fe3b57b0b.bindPopup(popup_2ac206d02ffb461490f8d2a115d8ef23)
+        ;
+
+        
+    
+    
+            var marker_c655ad5655f2464bbb1c3ad1009f4fa3 = L.marker(
+                [40.7798996, -121.6009979],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_b42712a79c104687af3477cd3c2a51b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c655ad5655f2464bbb1c3ad1009f4fa3.setIcon(icon_b42712a79c104687af3477cd3c2a51b4);
+        
+    
+        var popup_c3bffa848eb84369a90939d11f318ab0 = L.popup({"maxWidth": 180});
+
+        
+            var html_5de1cb8f524743e88d3b718881c2bfa6 = $(`<div id="html_5de1cb8f524743e88d3b718881c2bfa6" style="width: 100.0%; height: 100.0%;">Volcano Name: Twin Buttes  Longitude: -121.6009979  Latitude: 40.7798996  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_c3bffa848eb84369a90939d11f318ab0.setContent(html_5de1cb8f524743e88d3b718881c2bfa6);
+        
+
+        marker_c655ad5655f2464bbb1c3ad1009f4fa3.bindPopup(popup_c3bffa848eb84369a90939d11f318ab0)
+        ;
+
+        
+    
+    
+            var marker_0d830e78dfc34ed4bc47cb1bf6756937 = L.marker(
+                [40.6799011, -121.5510025],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_337ba74eb3e04bcb8a344f7ebb97c13d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0d830e78dfc34ed4bc47cb1bf6756937.setIcon(icon_337ba74eb3e04bcb8a344f7ebb97c13d);
+        
+    
+        var popup_8f19bdf62c18443a8376b6d6c2b852ce = L.popup({"maxWidth": 180});
+
+        
+            var html_2f4623addf18488fa0690ec95b8d41bd = $(`<div id="html_2f4623addf18488fa0690ec95b8d41bd" style="width: 100.0%; height: 100.0%;">Volcano Name: Tumble Buttes  Longitude: -121.5510025  Latitude: 40.6799011  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_8f19bdf62c18443a8376b6d6c2b852ce.setContent(html_2f4623addf18488fa0690ec95b8d41bd);
+        
+
+        marker_0d830e78dfc34ed4bc47cb1bf6756937.bindPopup(popup_8f19bdf62c18443a8376b6d6c2b852ce)
+        ;
+
+        
+    
+    
+            var marker_7203c3fa8d1c4e1b85765a16604784ee = L.marker(
+                [40.6299019, -120.8310013],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_c8b7afaeb2fb4a388665ff64ae6864a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7203c3fa8d1c4e1b85765a16604784ee.setIcon(icon_c8b7afaeb2fb4a388665ff64ae6864a6);
+        
+    
+        var popup_4b7033f9634b4b3a940ee4dc478bd56e = L.popup({"maxWidth": 180});
+
+        
+            var html_a28fb06e1ccd4dbc97d0f3c10170f52c = $(`<div id="html_a28fb06e1ccd4dbc97d0f3c10170f52c" style="width: 100.0%; height: 100.0%;">Volcano Name: Eagle Lake Field  Longitude: -120.8310013  Latitude: 40.6299019  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_4b7033f9634b4b3a940ee4dc478bd56e.setContent(html_a28fb06e1ccd4dbc97d0f3c10170f52c);
+        
+
+        marker_7203c3fa8d1c4e1b85765a16604784ee.bindPopup(popup_4b7033f9634b4b3a940ee4dc478bd56e)
+        ;
+
+        
+    
+    
+            var marker_1b7f4af5f4ab48ddb53398d04b584a27 = L.marker(
+                [40.4919014, -121.5009995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_cbbf40173ad744afaadae9fb39cbd70f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b7f4af5f4ab48ddb53398d04b584a27.setIcon(icon_cbbf40173ad744afaadae9fb39cbd70f);
+        
+    
+        var popup_241ee548968b4357a103e43e0b7c8546 = L.popup({"maxWidth": 180});
+
+        
+            var html_f9646ccf930c42828f2316d9bef3ebb2 = $(`<div id="html_f9646ccf930c42828f2316d9bef3ebb2" style="width: 100.0%; height: 100.0%;">Volcano Name: Lassen Volc Center  Longitude: -121.5009995  Latitude: 40.4919014  Location: US-California  Status: Historical</div>`)[0];
+            popup_241ee548968b4357a103e43e0b7c8546.setContent(html_f9646ccf930c42828f2316d9bef3ebb2);
+        
+
+        marker_1b7f4af5f4ab48ddb53398d04b584a27.bindPopup(popup_241ee548968b4357a103e43e0b7c8546)
+        ;
+
+        
+    
+    
+            var marker_b774ecfa93bc4a02b76d545fe97c4353 = L.marker(
+                [38.9698982, -122.7710037],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_9db7c0d485da4262824ebf5d60489235 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b774ecfa93bc4a02b76d545fe97c4353.setIcon(icon_9db7c0d485da4262824ebf5d60489235);
+        
+    
+        var popup_6c63e054c9e740958e8bac60042e5f49 = L.popup({"maxWidth": 180});
+
+        
+            var html_9a1279f96ae6464e8bb704659f91636e = $(`<div id="html_9a1279f96ae6464e8bb704659f91636e" style="width: 100.0%; height: 100.0%;">Volcano Name: Clear Lake  Longitude: -122.7710037  Latitude: 38.9698982  Location: US-California  Status: Holocene</div>`)[0];
+            popup_6c63e054c9e740958e8bac60042e5f49.setContent(html_9a1279f96ae6464e8bb704659f91636e);
+        
+
+        marker_b774ecfa93bc4a02b76d545fe97c4353.bindPopup(popup_6c63e054c9e740958e8bac60042e5f49)
+        ;
+
+        
+    
+    
+            var marker_5d66b61e6ae9427d9ef3af7f83bf5ec5 = L.marker(
+                [39.3749008, -119.7210007],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_67dc8ae2ce3e4e3f99530fb4c2dcfb40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d66b61e6ae9427d9ef3af7f83bf5ec5.setIcon(icon_67dc8ae2ce3e4e3f99530fb4c2dcfb40);
+        
+    
+        var popup_4ecc1fea47e944aeba877387037a2e24 = L.popup({"maxWidth": 180});
+
+        
+            var html_b59eea1cb46f4d8aba26fef2f56f1a0b = $(`<div id="html_b59eea1cb46f4d8aba26fef2f56f1a0b" style="width: 100.0%; height: 100.0%;">Volcano Name: Steamboat Springs  Longitude: -119.7210007  Latitude: 39.3749008  Location: US-Nevada  Status: Pleistocene-Fumarolic</div>`)[0];
+            popup_4ecc1fea47e944aeba877387037a2e24.setContent(html_b59eea1cb46f4d8aba26fef2f56f1a0b);
+        
+
+        marker_5d66b61e6ae9427d9ef3af7f83bf5ec5.bindPopup(popup_4ecc1fea47e944aeba877387037a2e24)
+        ;
+
+        
+    
+    
+            var marker_7594dee9534b405ab1b11daeda1576ee = L.marker(
+                [39.6500015, -107.0309982],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_a589c4bbbbe546998a86602d041b49bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7594dee9534b405ab1b11daeda1576ee.setIcon(icon_a589c4bbbbe546998a86602d041b49bf);
+        
+    
+        var popup_ca67c1ec4a074e79aec59eeb5d73b988 = L.popup({"maxWidth": 180});
+
+        
+            var html_d83bc8f10d2748cebf2e2a686eacc3fd = $(`<div id="html_d83bc8f10d2748cebf2e2a686eacc3fd" style="width: 100.0%; height: 100.0%;">Volcano Name: Dotsero  Longitude: -107.0309982  Latitude: 39.6500015  Location: US-Colorado  Status: Radiocarbon</div>`)[0];
+            popup_ca67c1ec4a074e79aec59eeb5d73b988.setContent(html_d83bc8f10d2748cebf2e2a686eacc3fd);
+        
+
+        marker_7594dee9534b405ab1b11daeda1576ee.bindPopup(popup_ca67c1ec4a074e79aec59eeb5d73b988)
+        ;
+
+        
+    
+    
+            var marker_0a0452d3b41c40bd8583521248374c66 = L.marker(
+                [37.9999008, -119.0309982],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_8697d2afeb13473c963ede926ff85873 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0a0452d3b41c40bd8583521248374c66.setIcon(icon_8697d2afeb13473c963ede926ff85873);
+        
+    
+        var popup_f86cb37a83034702b367264150713255 = L.popup({"maxWidth": 180});
+
+        
+            var html_40a896f111334d9381bc4353d424db5d = $(`<div id="html_40a896f111334d9381bc4353d424db5d" style="width: 100.0%; height: 100.0%;">Volcano Name: Mono Lake Volc Field  Longitude: -119.0309982  Latitude: 37.9999008  Location: US-California  Status: Tephrochronology</div>`)[0];
+            popup_f86cb37a83034702b367264150713255.setContent(html_40a896f111334d9381bc4353d424db5d);
+        
+
+        marker_0a0452d3b41c40bd8583521248374c66.bindPopup(popup_f86cb37a83034702b367264150713255)
+        ;
+
+        
+    
+    
+            var marker_8a44e538076a4fdb946bfc753802dc2f = L.marker(
+                [38.9700012, -112.5009995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_56bbb706c74846cabaa9a0bba155eed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a44e538076a4fdb946bfc753802dc2f.setIcon(icon_56bbb706c74846cabaa9a0bba155eed4);
+        
+    
+        var popup_a4161ad1ccdb41e08ea29efc4b0054ed = L.popup({"maxWidth": 180});
+
+        
+            var html_8f99e3a1526a4448bc2f6fbb905c112d = $(`<div id="html_8f99e3a1526a4448bc2f6fbb905c112d" style="width: 100.0%; height: 100.0%;">Volcano Name: Black Rock Desert  Longitude: -112.5009995  Latitude: 38.9700012  Location: US-Utah  Status: Radiocarbon</div>`)[0];
+            popup_a4161ad1ccdb41e08ea29efc4b0054ed.setContent(html_8f99e3a1526a4448bc2f6fbb905c112d);
+        
+
+        marker_8a44e538076a4fdb946bfc753802dc2f.bindPopup(popup_a4161ad1ccdb41e08ea29efc4b0054ed)
+        ;
+
+        
+    
+    
+            var marker_cb545a6644e64aa9b63ac835f76cbff3 = L.marker(
+                [37.8799019, -119.0009995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_7ebedd44c4b54b598f9f283880f4e49f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cb545a6644e64aa9b63ac835f76cbff3.setIcon(icon_7ebedd44c4b54b598f9f283880f4e49f);
+        
+    
+        var popup_7566cceb99f6431799e5dc2548922076 = L.popup({"maxWidth": 180});
+
+        
+            var html_d4f84276b1934d189c434c603417ddd5 = $(`<div id="html_d4f84276b1934d189c434c603417ddd5" style="width: 100.0%; height: 100.0%;">Volcano Name: Mono Craters  Longitude: -119.0009995  Latitude: 37.8799019  Location: US-California  Status: Radiocarbon</div>`)[0];
+            popup_7566cceb99f6431799e5dc2548922076.setContent(html_d4f84276b1934d189c434c603417ddd5);
+        
+
+        marker_cb545a6644e64aa9b63ac835f76cbff3.bindPopup(popup_7566cceb99f6431799e5dc2548922076)
+        ;
+
+        
+    
+    
+            var marker_0513288d294849138fdf72068ac01f88 = L.marker(
+                [37.6918983, -119.0210037],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_091e4880294f4cdcb64d43f975f833b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0513288d294849138fdf72068ac01f88.setIcon(icon_091e4880294f4cdcb64d43f975f833b6);
+        
+    
+        var popup_424c41ac6b4b453a9eecc614e3ffd9b1 = L.popup({"maxWidth": 180});
+
+        
+            var html_d936985cf8e0416f98e1e3c752f64905 = $(`<div id="html_d936985cf8e0416f98e1e3c752f64905" style="width: 100.0%; height: 100.0%;">Volcano Name: Inyo Craters  Longitude: -119.0210037  Latitude: 37.6918983  Location: US-California  Status: Radiocarbon</div>`)[0];
+            popup_424c41ac6b4b453a9eecc614e3ffd9b1.setContent(html_d936985cf8e0416f98e1e3c752f64905);
+        
+
+        marker_0513288d294849138fdf72068ac01f88.bindPopup(popup_424c41ac6b4b453a9eecc614e3ffd9b1)
+        ;
+
+        
+    
+    
+            var marker_413e96e5cc874441879731eda0e23b19 = L.marker(
+                [37.6999016, -118.8710022],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_56565421a78a4599a4d64a4bcc331fe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_413e96e5cc874441879731eda0e23b19.setIcon(icon_56565421a78a4599a4d64a4bcc331fe7);
+        
+    
+        var popup_9cc47dd152e54d48868483aaad710547 = L.popup({"maxWidth": 180});
+
+        
+            var html_ba10ed0cab914fdfa60bf74e5a5d0137 = $(`<div id="html_ba10ed0cab914fdfa60bf74e5a5d0137" style="width: 100.0%; height: 100.0%;">Volcano Name: Long Valley  Longitude: -118.8710022  Latitude: 37.6999016  Location: US-California  Status: Pleistocene-Fumarolic</div>`)[0];
+            popup_9cc47dd152e54d48868483aaad710547.setContent(html_ba10ed0cab914fdfa60bf74e5a5d0137);
+        
+
+        marker_413e96e5cc874441879731eda0e23b19.bindPopup(popup_9cc47dd152e54d48868483aaad710547)
+        ;
+
+        
+    
+    
+            var marker_3e581087c78d413d891ce1d2ce24fb4e = L.marker(
+                [37.5798988, -119.0510025],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_981c12f72e14409e8491af4f4d541ab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3e581087c78d413d891ce1d2ce24fb4e.setIcon(icon_981c12f72e14409e8491af4f4d541ab8);
+        
+    
+        var popup_31303f40f1214c389a8b26d6dc2e32f8 = L.popup({"maxWidth": 180});
+
+        
+            var html_a4583084a92f4300a61362021da1e1b6 = $(`<div id="html_a4583084a92f4300a61362021da1e1b6" style="width: 100.0%; height: 100.0%;">Volcano Name: Red Cones  Longitude: -119.0510025  Latitude: 37.5798988  Location: US-California  Status: Radiocarbon</div>`)[0];
+            popup_31303f40f1214c389a8b26d6dc2e32f8.setContent(html_a4583084a92f4300a61362021da1e1b6);
+        
+
+        marker_3e581087c78d413d891ce1d2ce24fb4e.bindPopup(popup_31303f40f1214c389a8b26d6dc2e32f8)
+        ;
+
+        
+    
+    
+            var marker_d354de01cdce492d88cef453d4dfe86c = L.marker(
+                [37.0199013, -117.4509964],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_5b21ba7e0be24117bc1da5212e008ec1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d354de01cdce492d88cef453d4dfe86c.setIcon(icon_5b21ba7e0be24117bc1da5212e008ec1);
+        
+    
+        var popup_9fea4a378f684c9ea2a1f151b4e766f6 = L.popup({"maxWidth": 180});
+
+        
+            var html_1b2d48f62c88401c9be1042932989988 = $(`<div id="html_1b2d48f62c88401c9be1042932989988" style="width: 100.0%; height: 100.0%;">Volcano Name: Ubehebe Craters  Longitude: -117.4509964  Latitude: 37.0199013  Location: US-California  Status: Anthropology</div>`)[0];
+            popup_9fea4a378f684c9ea2a1f151b4e766f6.setContent(html_1b2d48f62c88401c9be1042932989988);
+        
+
+        marker_d354de01cdce492d88cef453d4dfe86c.bindPopup(popup_9fea4a378f684c9ea2a1f151b4e766f6)
+        ;
+
+        
+    
+    
+            var marker_af61e65b287d490783e36bf39b5a2a28 = L.marker(
+                [37.5800018, -112.6709976],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_2da40e0c8abf47d7a505231adaf71d22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_af61e65b287d490783e36bf39b5a2a28.setIcon(icon_2da40e0c8abf47d7a505231adaf71d22);
+        
+    
+        var popup_2245cb533560483ba8dc3536ba976f6d = L.popup({"maxWidth": 180});
+
+        
+            var html_f7c730ab732641c091651163671c250d = $(`<div id="html_f7c730ab732641c091651163671c250d" style="width: 100.0%; height: 100.0%;">Volcano Name: Markagunt Plateau  Longitude: -112.6709976  Latitude: 37.5800018  Location: US-Utah  Status: Dendrochronology</div>`)[0];
+            popup_2245cb533560483ba8dc3536ba976f6d.setContent(html_f7c730ab732641c091651163671c250d);
+        
+
+        marker_af61e65b287d490783e36bf39b5a2a28.bindPopup(popup_2245cb533560483ba8dc3536ba976f6d)
+        ;
+
+        
+    
+    
+            var marker_4b928aac566d4d6bad46d936ada373b7 = L.marker(
+                [37.257, -113.6210022],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_8ab73749f7c14eaead81fb25f104d53f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b928aac566d4d6bad46d936ada373b7.setIcon(icon_8ab73749f7c14eaead81fb25f104d53f);
+        
+    
+        var popup_137f90377c1a4e4bb2a78e10c961f84f = L.popup({"maxWidth": 180});
+
+        
+            var html_f8386d9a41b441c7800567d470a5f411 = $(`<div id="html_f8386d9a41b441c7800567d470a5f411" style="width: 100.0%; height: 100.0%;">Volcano Name: Santa Clara  Longitude: -113.6210022  Latitude: 37.257  Location: US-Utah  Status: Holocene?</div>`)[0];
+            popup_137f90377c1a4e4bb2a78e10c961f84f.setContent(html_f8386d9a41b441c7800567d470a5f411);
+        
+
+        marker_4b928aac566d4d6bad46d936ada373b7.bindPopup(popup_137f90377c1a4e4bb2a78e10c961f84f)
+        ;
+
+        
+    
+    
+            var marker_560dfad4e6f24cd48aab183ce48dfb9c = L.marker(
+                [37.3279991, -112.401001],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_b1b1b45b62984bbc852183cfaf75689f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_560dfad4e6f24cd48aab183ce48dfb9c.setIcon(icon_b1b1b45b62984bbc852183cfaf75689f);
+        
+    
+        var popup_5a6fba0cb48c4d50b08cbe4224259ff7 = L.popup({"maxWidth": 180});
+
+        
+            var html_69782726060847ccb5c1e24dc9d69345 = $(`<div id="html_69782726060847ccb5c1e24dc9d69345" style="width: 100.0%; height: 100.0%;">Volcano Name: Bald Knoll  Longitude: -112.401001  Latitude: 37.3279991  Location: US-Utah  Status: Holocene</div>`)[0];
+            popup_5a6fba0cb48c4d50b08cbe4224259ff7.setContent(html_69782726060847ccb5c1e24dc9d69345);
+        
+
+        marker_560dfad4e6f24cd48aab183ce48dfb9c.bindPopup(popup_5a6fba0cb48c4d50b08cbe4224259ff7)
+        ;
+
+        
+    
+    
+            var marker_99b2f3116c4c4e9a93a3fe36be7bd2df = L.marker(
+                [36.3578987, -118.3209991],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_a5725191a8844fc3b7d65945fbfe5498 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_99b2f3116c4c4e9a93a3fe36be7bd2df.setIcon(icon_a5725191a8844fc3b7d65945fbfe5498);
+        
+    
+        var popup_f8f5aefe9d0e43c89c453543493260cd = L.popup({"maxWidth": 180});
+
+        
+            var html_72d3db414d824f89ac19185244b0c5b9 = $(`<div id="html_72d3db414d824f89ac19185244b0c5b9" style="width: 100.0%; height: 100.0%;">Volcano Name: Golden Trout Creek  Longitude: -118.3209991  Latitude: 36.3578987  Location: US-California  Status: Tephrochronology</div>`)[0];
+            popup_f8f5aefe9d0e43c89c453543493260cd.setContent(html_72d3db414d824f89ac19185244b0c5b9);
+        
+
+        marker_99b2f3116c4c4e9a93a3fe36be7bd2df.bindPopup(popup_f8f5aefe9d0e43c89c453543493260cd)
+        ;
+
+        
+    
+    
+            var marker_83e07c8dda1c4404a6a57548cdaba6f4 = L.marker(
+                [36.0298996, -117.8209991],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_ef90254fdef440929da7db47f03fee2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_83e07c8dda1c4404a6a57548cdaba6f4.setIcon(icon_ef90254fdef440929da7db47f03fee2e);
+        
+    
+        var popup_3e75c0566f824a0e9fc40c79144263f5 = L.popup({"maxWidth": 180});
+
+        
+            var html_a9699720de244e3f94eacea96763d957 = $(`<div id="html_a9699720de244e3f94eacea96763d957" style="width: 100.0%; height: 100.0%;">Volcano Name: Coso Volc Field  Longitude: -117.8209991  Latitude: 36.0298996  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_3e75c0566f824a0e9fc40c79144263f5.setContent(html_a9699720de244e3f94eacea96763d957);
+        
+
+        marker_83e07c8dda1c4404a6a57548cdaba6f4.bindPopup(popup_3e75c0566f824a0e9fc40c79144263f5)
+        ;
+
+        
+    
+    
+            var marker_b3103de1c4794ca78d272c16b15215bc = L.marker(
+                [36.3800011, -113.1309967],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_7ea32fe4f42641d09ca2772dab5bfc2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3103de1c4794ca78d272c16b15215bc.setIcon(icon_7ea32fe4f42641d09ca2772dab5bfc2b);
+        
+    
+        var popup_53e1d0e563d64a86b814c1307b30520b = L.popup({"maxWidth": 180});
+
+        
+            var html_62dd952bd02e4f6db2ad58e9d996b05d = $(`<div id="html_62dd952bd02e4f6db2ad58e9d996b05d" style="width: 100.0%; height: 100.0%;">Volcano Name: Uinkaret Field  Longitude: -113.1309967  Latitude: 36.3800011  Location: US-Arizona  Status: Anthropology</div>`)[0];
+            popup_53e1d0e563d64a86b814c1307b30520b.setContent(html_62dd952bd02e4f6db2ad58e9d996b05d);
+        
+
+        marker_b3103de1c4794ca78d272c16b15215bc.bindPopup(popup_53e1d0e563d64a86b814c1307b30520b)
+        ;
+
+        
+    
+    
+            var marker_47daea466654415896ab3923908c6386 = L.marker(
+                [34.75, -116.6210022],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_85ce2062e3d842a78184e68c36521535 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47daea466654415896ab3923908c6386.setIcon(icon_85ce2062e3d842a78184e68c36521535);
+        
+    
+        var popup_6d2d5315dc7c4120baaa7470be4b0928 = L.popup({"maxWidth": 180});
+
+        
+            var html_d60110eaef2a4bee9fb624745da33fb0 = $(`<div id="html_d60110eaef2a4bee9fb624745da33fb0" style="width: 100.0%; height: 100.0%;">Volcano Name: Lavic Lake  Longitude: -116.6210022  Latitude: 34.75  Location: US-California  Status: Holocene?</div>`)[0];
+            popup_6d2d5315dc7c4120baaa7470be4b0928.setContent(html_d60110eaef2a4bee9fb624745da33fb0);
+        
+
+        marker_47daea466654415896ab3923908c6386.bindPopup(popup_6d2d5315dc7c4120baaa7470be4b0928)
+        ;
+
+        
+    
+    
+            var marker_60848c88d05248b9983a6bf7e98bf794 = L.marker(
+                [35.8699989, -106.5709991],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_ad0473d4032d42fc9dcdbe1f5ac96b60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60848c88d05248b9983a6bf7e98bf794.setIcon(icon_ad0473d4032d42fc9dcdbe1f5ac96b60);
+        
+    
+        var popup_497b7eb9e5a348d1b5c241eee4040dbd = L.popup({"maxWidth": 180});
+
+        
+            var html_5d2786ac4f0d43de841e780dfe55a1b8 = $(`<div id="html_5d2786ac4f0d43de841e780dfe55a1b8" style="width: 100.0%; height: 100.0%;">Volcano Name: Valles Caldera  Longitude: -106.5709991  Latitude: 35.8699989  Location: US-New Mexico  Status: Pleistocene-Fumarolic</div>`)[0];
+            popup_497b7eb9e5a348d1b5c241eee4040dbd.setContent(html_5d2786ac4f0d43de841e780dfe55a1b8);
+        
+
+        marker_60848c88d05248b9983a6bf7e98bf794.bindPopup(popup_497b7eb9e5a348d1b5c241eee4040dbd)
+        ;
+
+        
+    
+    
+            var marker_dbbf2ae92d4146ed9782c9a222127bff = L.marker(
+                [35.3699989, -111.5009995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_a714fc6474344970aeddc57daf9d28e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dbbf2ae92d4146ed9782c9a222127bff.setIcon(icon_a714fc6474344970aeddc57daf9d28e8);
+        
+    
+        var popup_f5199fedf67c45728f9ffd9f52b10a0e = L.popup({"maxWidth": 180});
+
+        
+            var html_52eae63ac90847c3b989c7ff213d417e = $(`<div id="html_52eae63ac90847c3b989c7ff213d417e" style="width: 100.0%; height: 100.0%;">Volcano Name: Sunset Crater  Longitude: -111.5009995  Latitude: 35.3699989  Location: US-Arizona  Status: Dendrochronology</div>`)[0];
+            popup_f5199fedf67c45728f9ffd9f52b10a0e.setContent(html_52eae63ac90847c3b989c7ff213d417e);
+        
+
+        marker_dbbf2ae92d4146ed9782c9a222127bff.bindPopup(popup_f5199fedf67c45728f9ffd9f52b10a0e)
+        ;
+
+        
+    
+    
+            var marker_5a3261f521da49ef95e942f269c93076 = L.marker(
+                [34.5499992, -115.7809982],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_bf9ed24a1a2b468e8750fcd3223d2662 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a3261f521da49ef95e942f269c93076.setIcon(icon_bf9ed24a1a2b468e8750fcd3223d2662);
+        
+    
+        var popup_b2646b94eef54c6fbeed9becf0f88546 = L.popup({"maxWidth": 180});
+
+        
+            var html_31a0d58689f0409f8d9052e0c8c5e50c = $(`<div id="html_31a0d58689f0409f8d9052e0c8c5e50c" style="width: 100.0%; height: 100.0%;">Volcano Name: Amboy  Longitude: -115.7809982  Latitude: 34.5499992  Location: US-California  Status: Holocene</div>`)[0];
+            popup_b2646b94eef54c6fbeed9becf0f88546.setContent(html_31a0d58689f0409f8d9052e0c8c5e50c);
+        
+
+        marker_5a3261f521da49ef95e942f269c93076.bindPopup(popup_b2646b94eef54c6fbeed9becf0f88546)
+        ;
+
+        
+    
+    
+            var marker_78c6e431bca447ada0140b679faa53f5 = L.marker(
+                [34.7999992, -108.0009995],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_acda2334797547f78bf83682ae1075ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_78c6e431bca447ada0140b679faa53f5.setIcon(icon_acda2334797547f78bf83682ae1075ff);
+        
+    
+        var popup_f89f25282879445ea132f46483cac4f4 = L.popup({"maxWidth": 180});
+
+        
+            var html_ddba588ae02b4a40888d7cb74af8430d = $(`<div id="html_ddba588ae02b4a40888d7cb74af8430d" style="width: 100.0%; height: 100.0%;">Volcano Name: Zuni-Bandera  Longitude: -108.0009995  Latitude: 34.7999992  Location: US-New Mexico  Status: Anthropology</div>`)[0];
+            popup_f89f25282879445ea132f46483cac4f4.setContent(html_ddba588ae02b4a40888d7cb74af8430d);
+        
+
+        marker_78c6e431bca447ada0140b679faa53f5.bindPopup(popup_f89f25282879445ea132f46483cac4f4)
+        ;
+
+        
+    
+    
+            var marker_6e63629ec6e94059b550b0a93c2c99cb = L.marker(
+                [33.7801018, -105.9309998],
+                {}
+            ).addTo(feature_group_29c00095da294fe18ae8abeafb542082);
+        
+    
+            var icon_ffa35dd420cd480a9066ad6b6d349c47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e63629ec6e94059b550b0a93c2c99cb.setIcon(icon_ffa35dd420cd480a9066ad6b6d349c47);
+        
+    
+        var popup_c8e1939ed8314fe58a99210809cb6b10 = L.popup({"maxWidth": 180});
+
+        
+            var html_222d8ab413824a62a94aabce19173a93 = $(`<div id="html_222d8ab413824a62a94aabce19173a93" style="width: 100.0%; height: 100.0%;">Volcano Name: Carrizozo  Longitude: -105.9309998  Latitude: 33.7801018  Location: US-New Mexico  Status: Holocene</div>`)[0];
+            popup_c8e1939ed8314fe58a99210809cb6b10.setContent(html_222d8ab413824a62a94aabce19173a93);
+        
+
+        marker_6e63629ec6e94059b550b0a93c2c99cb.bindPopup(popup_c8e1939ed8314fe58a99210809cb6b10)
+        ;
+
+        
+    
+</script>
